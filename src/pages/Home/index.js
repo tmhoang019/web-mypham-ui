@@ -1,5 +1,8 @@
+import SwiperBanner from "./components/SwiperBanner";
 function Home() {
-    return <h2>Home Page</h2>;
+    return (<div style={{width: '100%'}}>
+        <SwiperBanner></SwiperBanner>
+    </div>);
 }
 
 export default Home;
